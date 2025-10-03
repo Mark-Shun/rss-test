@@ -8,13 +8,22 @@
     <link>https://example.com/</link>
     <description>A simple RSS feed for testing purposes.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 11:50:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 12:00:00 GMT</lastBuildDate>
     <generator>Custom RSS Test Generator</generator>
 
     <!-- Self-referencing atom link (best practice for feed discovery) -->
     <atom:link href="https://mark-shun.github.io/rss-test/rss.xml"
                rel="self"
                type="application/rss+xml" />
+
+    <!-- Example item 7 (newest) -->
+    <item>
+      <title>Medipoint flow</title>
+      <link>https://example.com/post7</link>
+      <guid isPermaLink="true">https://example.com/post7</guid>
+      <description>Medipoint mobility scooters are pretty neat</description>
+      <pubDate>Fri, 03 Oct 2025 12:00:00 GMT</pubDate>
+    </item>
 
     <!-- Example item 6 (newest) -->
     <item>
