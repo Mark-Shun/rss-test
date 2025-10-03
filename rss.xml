@@ -46,5 +46,23 @@
       <pubDate>Fri, 03 Oct 2025 11:00:00 GMT</pubDate>
     </item>
 
+    <!-- Example item 4 -->
+    <item>
+      <title>Medipoint news</title>
+      <link>https://example.com/post4</link>
+      <guid isPermaLink="true">https://example.com/post4</guid>
+      <description>Medipoint as a company should be picked up by the automation</description>
+      <pubDate>Fri, 03 Oct 2025 11:30:00 GMT</pubDate>
+    </item>
+
+    <!-- Example item 5 -->
+    <item>
+      <title>Medux notice</title>
+      <link>https://example.com/post5</link>
+      <guid isPermaLink="true">https://example.com/post5</guid>
+      <description>Medux has sent out an RSS notification, will it get picked up?</description>
+      <pubDate>Fri, 03 Oct 2025 11:40:00 GMT</pubDate>
+    </item>
+
   </channel>
 </rss>
