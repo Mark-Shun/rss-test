@@ -8,7 +8,7 @@
     <link>https://example.com/</link>
     <description>A simple RSS feed for testing purposes.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 11:40:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 11:50:00 GMT</lastBuildDate>
     <generator>Custom RSS Test Generator</generator>
 
     <!-- Self-referencing atom link (best practice for feed discovery) -->
@@ -62,6 +62,15 @@
       <guid isPermaLink="true">https://example.com/post5</guid>
       <description>Medux has sent out an RSS notification, will it get picked up?</description>
       <pubDate>Fri, 03 Oct 2025 11:40:00 GMT</pubDate>
+    </item>
+
+    <!-- Example item 6 -->
+    <item>
+      <title>Medux flow</title>
+      <link>https://example.com/post6</link>
+      <guid isPermaLink="true">https://example.com/post5</guid>
+      <description>Medux it's the final countdown</description>
+      <pubDate>Fri, 03 Oct 2025 11:50:00 GMT</pubDate>
     </item>
 
   </channel>
