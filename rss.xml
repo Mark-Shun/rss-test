@@ -16,43 +16,13 @@
                rel="self"
                type="application/rss+xml" />
 
-    <!-- Example item 1 -->
+    <!-- Example item 6 (newest) -->
     <item>
-      <title>First Test Post</title>
-      <link>https://example.com/post1</link>
-      <guid isPermaLink="true">https://example.com/post1</guid>
-      <description><![CDATA[
-        This is the <b>first</b> test post.  
-        You can include HTML in CDATA if needed.
-      ]]></description>
-      <pubDate>Fri, 03 Oct 2025 09:00:00 GMT</pubDate>
-    </item>
-
-    <!-- Example item 2 -->
-    <item>
-      <title>Second Test Post</title>
-      <link>https://example.com/post2</link>
-      <guid isPermaLink="true">https://example.com/post2</guid>
-      <description>This is the second test post.</description>
-      <pubDate>Fri, 03 Oct 2025 10:00:00 GMT</pubDate>
-    </item>
-
-    <!-- Example item 3 -->
-    <item>
-      <title>Third Test Post</title>
-      <link>https://example.com/post3</link>
-      <guid isPermaLink="true">https://example.com/post3</guid>
-      <description>A third example entry for testing readers.</description>
-      <pubDate>Fri, 03 Oct 2025 11:00:00 GMT</pubDate>
-    </item>
-
-    <!-- Example item 4 -->
-    <item>
-      <title>Medipoint news</title>
-      <link>https://example.com/post4</link>
-      <guid isPermaLink="true">https://example.com/post4</guid>
-      <description>Medipoint as a company should be picked up by the automation</description>
-      <pubDate>Fri, 03 Oct 2025 11:30:00 GMT</pubDate>
+      <title>Medux flow</title>
+      <link>https://example.com/post6</link>
+      <guid isPermaLink="true">https://example.com/post6</guid>
+      <description>Medux it's the final countdown</description>
+      <pubDate>Fri, 03 Oct 2025 11:50:00 GMT</pubDate>
     </item>
 
     <!-- Example item 5 -->
@@ -64,13 +34,43 @@
       <pubDate>Fri, 03 Oct 2025 11:40:00 GMT</pubDate>
     </item>
 
-    <!-- Example item 6 -->
+    <!-- Example item 4 -->
     <item>
-      <title>Medux flow</title>
-      <link>https://example.com/post6</link>
-      <guid isPermaLink="true">https://example.com/post5</guid>
-      <description>Medux it's the final countdown</description>
-      <pubDate>Fri, 03 Oct 2025 11:50:00 GMT</pubDate>
+      <title>Medipoint news</title>
+      <link>https://example.com/post4</link>
+      <guid isPermaLink="true">https://example.com/post4</guid>
+      <description>Medipoint as a company should be picked up by the automation</description>
+      <pubDate>Fri, 03 Oct 2025 11:30:00 GMT</pubDate>
+    </item>
+
+    <!-- Example item 3 -->
+    <item>
+      <title>Third Test Post</title>
+      <link>https://example.com/post3</link>
+      <guid isPermaLink="true">https://example.com/post3</guid>
+      <description>A third example entry for testing readers.</description>
+      <pubDate>Fri, 03 Oct 2025 11:00:00 GMT</pubDate>
+    </item>
+
+    <!-- Example item 2 -->
+    <item>
+      <title>Second Test Post</title>
+      <link>https://example.com/post2</link>
+      <guid isPermaLink="true">https://example.com/post2</guid>
+      <description>This is the second test post.</description>
+      <pubDate>Fri, 03 Oct 2025 10:00:00 GMT</pubDate>
+    </item>
+
+    <!-- Example item 1 (oldest) -->
+    <item>
+      <title>First Test Post</title>
+      <link>https://example.com/post1</link>
+      <guid isPermaLink="true">https://example.com/post1</guid>
+      <description><![CDATA[
+        This is the <b>first</b> test post.  
+        You can include HTML in CDATA if needed.
+      ]]></description>
+      <pubDate>Fri, 03 Oct 2025 09:00:00 GMT</pubDate>
     </item>
 
   </channel>
