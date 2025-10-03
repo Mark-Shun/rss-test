@@ -1,23 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
   <channel>
-    <title>My Test Feed</title>
-    <link>https://example.com</link>
-    <description>This is a simple test RSS feed</description>
-    <lastBuildDate>Fri, 03 Oct 2025 13:10:00 GMT</lastBuildDate>
+    <!-- Basic feed metadata -->
+    <title>My Test RSS Feed</title>
+    <link>https://example.com/</link>
+    <description>A simple RSS feed for testing purposes.</description>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Oct 2025 12:00:00 GMT</lastBuildDate>
+    <generator>Custom RSS Test Generator</generator>
 
+    <!-- Self-referencing atom link (best practice for feed discovery) -->
+    <atom:link href="https://mark-shun.github.io/rss-test/rss.xml"
+               rel="self"
+               type="application/rss+xml" />
+
+    <!-- Example item 1 -->
     <item>
-      <title>First Test Item</title>
+      <title>First Test Post</title>
       <link>https://example.com/post1</link>
-      <description>This is the first test item.</description>
-      <pubDate>Fri, 03 Oct 2025 13:20:00 GMT</pubDate>
+      <guid isPermaLink="true">https://example.com/post1</guid>
+      <description><![CDATA[
+        This is the <b>first</b> test post.  
+        You can include HTML in CDATA if needed.
+      ]]></description>
+      <pubDate>Fri, 03 Oct 2025 09:00:00 GMT</pubDate>
     </item>
 
+    <!-- Example item 2 -->
     <item>
-      <title>Second Test Item</title>
+      <title>Second Test Post</title>
       <link>https://example.com/post2</link>
-      <description>This is the second test item.</description>
-      <pubDate>Fri, 03 Oct 2025 13:21:00 GMT</pubDate>
+      <guid isPermaLink="true">https://example.com/post2</guid>
+      <description>This is the second test post.</description>
+      <pubDate>Fri, 03 Oct 2025 10:00:00 GMT</pubDate>
     </item>
+
+    <!-- Example item 3 -->
+    <item>
+      <title>Third Test Post</title>
+      <link>https://example.com/post3</link>
+      <guid isPermaLink="true">https://example.com/post3</guid>
+      <description>A third example entry for testing readers.</description>
+      <pubDate>Fri, 03 Oct 2025 11:00:00 GMT</pubDate>
+    </item>
+
   </channel>
 </rss>
